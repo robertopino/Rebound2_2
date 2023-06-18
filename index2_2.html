@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <for action="">
+        <div align="center">
+        <h1 >FORMULARIO</h1><br>
+        <div>
+            <table>
+                <tr>
+                    <td width="100%">
+                        <label for="nombre">NOMBRE</label><br>
+                        <input type="text" name="nombre" id="nombre"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="direccion">DIRECCION</label><br>
+                        <input type="text" name="direccion" id="DIRECCION"><br><br>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lista">ESPECIALIDAD MÉDICA</label><br>
+                        <input type="text" name="lista" list="especialidades"><br><br>
+                    </td>
+                </tr>
+                        <datalist id="especialidades">
+                            <option>MEDICINA INTERNA</option>
+                            <option>MEDICINA GENERAL</option>
+                            <option>TRAUMATOLOGÍA</option>
+                            <option>NUTRICIONISTA</option>
+                        </datalist>
+                <tr>
+                    <td>
+                        <label for="">HORA LOCAL</label><br>
+                        <input type="time"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">FECHA</label><br>
+                        <input type="date" id="fecha"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">CORREO</label><br>
+                        <input type="text"><br><br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+            <p>
+                <input type="submit" class="btn btn-grey" value="CONFIRMAR">
+            </p>
+    </body>
+    </html>
